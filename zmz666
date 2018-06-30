@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long LL;
@@ -50,5 +51,6 @@ int main()
     sort(num, num + n);
     get_ans(0, n - 1);
     printf("%d\n%d\n", ans, sum);
+    printf("%d\n",这是张明政修改的内容)；
     return 0;
 }
